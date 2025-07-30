@@ -1,5 +1,4 @@
 import sys
-import inquirer
 from rich.text import Text
 from .manager import Manager
 from . import console
@@ -69,7 +68,6 @@ def interactive_shell():
         sys.exit(0)
 
 def main():
-    """Main entry point"""
     interactive_shell()
 
 if __name__ == '__main__':

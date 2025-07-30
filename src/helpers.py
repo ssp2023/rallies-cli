@@ -8,7 +8,7 @@ from rallies.llm import LLM
 from rich.markdown import Markdown
 
 class TokenCounter:
-    def __init__(self, model="o200k_base"):
+    def __init__(self, model="gpt-4o"):
         try:
             self.encoding = tiktoken.encoding_for_model(model)
         except KeyError:
