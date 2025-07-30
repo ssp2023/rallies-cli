@@ -99,27 +99,6 @@ That's it! You're ready to start researching.
 | `/exit` or `/quit` | Exit the application |
 
 ## 🏗️ How It Works
-
-Rallies CLI uses a sophisticated multi-agent architecture:
-
-```mermaid
-graph TD
-    A[User Query] --> B[Planning Agent]
-    B --> C[Data Retrieval]
-    C --> D[Analysis Agent]
-    D --> E[Response Generation]
-    E --> F[Streaming Output]
-    
-    B --> G[Market Data APIs]
-    B --> H[News Sources]
-    B --> I[Financial Databases]
-```
-
-1. **Planning Phase**: AI analyzes your query and creates a research plan
-2. **Data Gathering**: Fetches relevant financial data from multiple sources
-3. **Analysis**: Processes data and generates insights
-4. **Response**: Streams formatted results with charts and analysis
-
 ## 🔧 Architecture
 
 ### Core Components
