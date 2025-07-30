@@ -138,23 +138,6 @@ graph TD
 - **Technical Indicators**: Charts, patterns, and trading signals
 - **Economic Data**: Macro indicators and market sentiment
 
-## 🌟 Advanced Features
-
-### Smart Context Management
-- **Token Optimization**: Automatic conversation compression
-- **Context Preservation**: Maintains conversation flow while reducing token usage
-- **Memory Management**: Intelligent data retention and cleanup
-
-### Enhanced Data Access
-- **API Integration**: Premium data access with Rallies.ai API key
-- **Rate Limiting**: Smart request management and usage tracking
-- **Error Handling**: Graceful fallbacks and error recovery
-
-### Professional Output
-- **Markdown Rendering**: Rich text formatting in terminal
-- **Live Updates**: Real-time progress indicators
-- **Data Visualization**: Tables, charts, and formatted output
-
 ## 🔑 API Keys & Authentication
 
 ### OpenAI API Key (Required)
@@ -162,21 +145,14 @@ graph TD
 export OPENAI_API_KEY="sk-your-openai-key"
 ```
 
-### Rallies.ai API Key (Optional - Enhanced Features)
+### Rallies.ai API Key (Optional - Higher usage limits)
 ```bash
 # Set via CLI
 rallies
 > /key your-rallies-api-key
-
-# Or via environment  
-export RALLIES_API_KEY="your-api-key"
 ```
 
-The Rallies.ai API key provides:
-- Higher rate limits
-- Premium data sources
-- Advanced analytics
-- Priority support
+The Rallies.ai API key provides you higher rate limits.
 
 
 ### Project Structure
@@ -261,8 +237,7 @@ pip install --upgrade rallies
 ### Getting Help
 
 - 📧 **Email**: [support@rallies.ai](mailto:support@rallies.ai)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/rallies-cli/issues)
-- 💬 **Community**: [Rallies.ai Discord](https://discord.gg/rallies)
+- 💬 **Community**: [Rallies.ai Discord](https://discord.gg/xKbBExMTYc)
 
 ## 📄 License
 
@@ -278,8 +253,9 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## 🌐 Links
 
 - **Website**: [rallies.ai](https://rallies.ai)
-- **Twitter**: [@RalliesAI](https://twitter.com/ralliesai)
-- **LinkedIn**: [Rallies AI](https://linkedin.com/company/rallies-ai)
+- **Mobile app**: [Rallies](https://apps.apple.com/us/app/rallies-ai-stocks-trading/id6745213959?platform=iphone)
+- **Twitter**: [@RalliesAI](https://x.com/ralliesai)
+- **LinkedIn**: [Rallies AI](https://www.linkedin.com/company/107790814/)
 
 ---
 
