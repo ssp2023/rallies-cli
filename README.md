@@ -91,24 +91,6 @@ That's it! You're ready to start researching.
 | `/exit` or `/quit` | Exit the application |
 
 
-## 🔧 Architecture
-
-### Core Components
-
-- **CLI Interface** (`src/cli.py`): Beautiful terminal interface with rich formatting
-- **Agent System** (`src/agent/`): Multi-step planning and execution engine
-- **Manager** (`src/manager.py`): Orchestrates the entire research workflow
-- **LLM Integration** (`src/llm.py`): OpenAI API integration with streaming
-- **Helpers** (`src/helpers.py`): Utilities for token counting, config management
-
-### Data Sources
-
-- **Real-time Market Data**: Live prices, volume, and trading metrics
-- **Financial News**: Breaking news and market-moving events  
-- **Company Fundamentals**: Earnings, ratios, and financial statements
-- **Technical Indicators**: Charts, patterns, and trading signals
-- **Economic Data**: Macro indicators and market sentiment
-
 ## 🔑 API Keys & Authentication
 
 ### OpenAI API Key (Required)
