@@ -3,8 +3,8 @@ import numpy as np
 import subprocess
 import tempfile
 import requests
-from rallies.agent.prompts import agent_prompt, answer_prompt, summary_prompt, compact_prompt
-from rallies.llm import LLM
+from .prompts import agent_prompt, answer_prompt, summary_prompt, compact_prompt
+from ..llm import LLM
 
 
 class Agent:

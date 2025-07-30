@@ -4,7 +4,7 @@ import json
 import os
 import requests
 from pathlib import Path
-from rallies.llm import LLM
+from .llm import LLM
 from rich.markdown import Markdown
 
 class TokenCounter:

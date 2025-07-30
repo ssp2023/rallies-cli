@@ -1,14 +1,14 @@
 import os
-from rallies import console
-from rallies.agent.agent import Agent
-from rallies.agent.prompts import agent_prompt
+from . import console
+from .agent.agent import Agent
+from .agent.prompts import agent_prompt
 from rich.spinner import Spinner
 from rich.live import Live
 from rich.panel import Panel
 from rich.markdown import Markdown
 import time
 import threading
-from rallies.helpers import get_timeout_message, TokenCounter, handle_command, get_api_key
+from .helpers import get_timeout_message, TokenCounter, handle_command, get_api_key
 
 class Manager:
     def __init__(self):

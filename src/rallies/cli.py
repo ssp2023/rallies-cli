@@ -1,7 +1,7 @@
 import sys
 from rich.text import Text
-from .manager import Manager
-from . import console
+from rallies.manager import Manager
+from rallies import console
 
 def display_application_banner():
     banner_text = """

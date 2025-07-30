@@ -11,7 +11,7 @@
   [![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-412991.svg)](https://openai.com/)
   [![Rallies.ai](https://img.shields.io/badge/Data%20by-Rallies.ai-ff6b6b.svg)](https://rallies.ai)
 
-  ![Rallies CLI Demo](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=Rallies+CLI+Demo)
+   ![Rallies CLI Demo](demo/demo.png) 
   
 </div>
 

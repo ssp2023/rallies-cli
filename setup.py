@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'rallies=src.cli:main',
+            'rallies=rallies.cli:main',
         ],
     },
     python_requires=">=3.6",
