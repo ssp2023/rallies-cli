@@ -25,13 +25,14 @@ Rallies CLI is an intelligent investment research agent built by [Rallies](https
 ### Installation
 
 ```bash
-# Install from PyPI (coming soon)
-pip install rallies
-
-# Or install from source
+# Install from source
 git clone https://github.com/your-username/rallies-cli.git
 cd rallies-cli
 pip install -e .
+
+
+# Install from PyPI (coming soon)
+pip install rallies
 ```
 
 ### Setup
@@ -122,7 +123,7 @@ rallies
 > /key your-rallies-api-key
 ```
 
-The Rallies.ai API key provides you higher rate limits.
+The Rallies.ai API key provides you higher rate limits. You can get your key by registering for a free account at [Rallies](https://rallies.ai)
 
 
 ### Project Structure
@@ -157,13 +158,6 @@ We welcome contributions! Here's how to get started:
 6. **Push to branch**: `git push origin feature/amazing-feature`
 7. **Open a Pull Request**
 
-### Contributing Guidelines
-
-- Follow Python PEP 8 style guidelines
-- Add docstrings to new functions and classes
-- Include tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting PR
 
 ## 📋 Requirements
 
@@ -231,7 +225,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 <div align="center">
   
-  **Built with ❤️ by the Rallies team**
+  **Built with ❤️ by the Rallies team** - 
   *Making financial research accessible to everyone*
 
 </div>
