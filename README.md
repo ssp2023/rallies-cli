@@ -126,26 +126,6 @@ rallies
 The Rallies.ai API key provides you higher rate limits. You can get your key by registering for a free account at [Rallies](https://rallies.ai)
 
 
-### Project Structure
-
-```
-rallies-cli/
-├── src/
-│   ├── __init__.py
-│   ├── cli.py              # Main CLI interface
-│   ├── manager.py          # Workflow orchestration
-│   ├── llm.py             # OpenAI integration
-│   ├── helpers.py         # Utilities and helpers
-│   └── agent/
-│       ├── __init__.py
-│       ├── agent.py       # Core agent logic
-│       └── prompts.py     # System prompts
-├── pyproject.toml         # Package configuration
-├── setup.py              # Setup script
-├── LICENSE               # GPL v3 License
-└── README.md            # This file
-```
-
 ## 🤝 Contributing
 
 We welcome contributions! Here's how to get started:
