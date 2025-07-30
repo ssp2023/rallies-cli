@@ -187,9 +187,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 - **Twitter**: [@RalliesAI](https://x.com/ralliesai)
 - **LinkedIn**: [Rallies AI](https://www.linkedin.com/company/107790814/)
 
----
-
-
 ## 🤝 Contributing
 
 We welcome contributions! Here's how to get started:
@@ -201,6 +198,8 @@ We welcome contributions! Here's how to get started:
 5. **Commit changes**: `git commit -m 'Add amazing feature'`
 6. **Push to branch**: `git push origin feature/amazing-feature`
 7. **Open a Pull Request**
+
+---
 
 <div align="center">
   
