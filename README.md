@@ -50,7 +50,7 @@ pip install -e .
    ```bash
    export OPENAI_API_KEY="sk-your-api-key-here"
    ```
-3. **Launch Rallies**:
+3. **Launch rallies from your terminal**:
    ```bash
    rallies
    ```
@@ -98,7 +98,7 @@ That's it! You're ready to start researching.
 | `/compact` | Compress conversation while preserving context |
 | `/exit` or `/quit` | Exit the application |
 
-## 🏗️ How It Works
+
 ## 🔧 Architecture
 
 ### Core Components
