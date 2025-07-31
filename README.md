@@ -153,7 +153,7 @@ pip install --upgrade rallies
 ### Getting Help
 
 - 📧 **Email**: [support@rallies.ai](mailto:support@rallies.ai)
-- 💬 **Community**: [Rallies.ai Discord](https://discord.gg/xKbBExMTYc)
+- 💬 **Discord**: [Rallies.ai Discord](https://discord.gg/xKbBExMTYc)
 
 
 ## 🌐 Links
