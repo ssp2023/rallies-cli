@@ -15,10 +15,11 @@
   
 </div>
 
-## ✨ What is Rallies CLI?
+## ✨ What is rallies-cli?
 
 Rallies CLI is an intelligent investment research agent built by [Rallies](https://rallies.ai) that combines the conversational power of AI with real-time financial data. Think of it as ChatGPT specifically designed for traders and investors, equipped with live market data, news feeds, and comprehensive financial analysis capabilities.
 
+#### What's different from ChatGPT, Perplexity Finance, etc?
 
 ## 🚀 Quick Start
 
