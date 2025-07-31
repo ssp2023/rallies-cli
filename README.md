@@ -35,7 +35,7 @@ cd rallies-cli
 pip install -e .
 
 
-# Install from PyPI (coming soon)
+# Install from PyPI
 pip install rallies
 ```
 
