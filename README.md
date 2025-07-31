@@ -166,18 +166,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 - **Twitter**: [@RalliesAI](https://x.com/ralliesai)
 - **LinkedIn**: [Rallies AI](https://www.linkedin.com/company/107790814/)
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how to get started:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and add tests
-4. **Run tests**: `pytest`
-5. **Commit changes**: `git commit -m 'Add amazing feature'`
-6. **Push to branch**: `git push origin feature/amazing-feature`
-7. **Open a Pull Request**
-
 ## ⚠️ Disclaimer
 
 **This tool is for educational and research purposes only.** Rallies CLI does not provide investment advice, recommendations, or financial guidance. All information provided is for informational purposes only and should not be considered as investment advice. Always consult with a qualified financial advisor before making any investment decisions. Past performance does not guarantee future results. Trading and investing involve risk of loss.
