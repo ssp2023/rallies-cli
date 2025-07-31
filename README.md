@@ -2,7 +2,7 @@
   
   # 🚀 rallies-cli
   
-  **AI-Powered Investment Research Platform**
+  **AI-Powered investment research**
   
   *ChatGPT for traders, backed by real-time financial data*
 
