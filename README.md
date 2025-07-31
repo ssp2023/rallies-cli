@@ -155,9 +155,6 @@ pip install --upgrade rallies
 - 📧 **Email**: [support@rallies.ai](mailto:support@rallies.ai)
 - 💬 **Community**: [Rallies.ai Discord](https://discord.gg/xKbBExMTYc)
 
-## 📄 License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## 🌐 Links
 
@@ -169,6 +166,11 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## ⚠️ Disclaimer
 
 **This tool is for educational and research purposes only.** Rallies CLI does not provide investment advice, recommendations, or financial guidance. All information provided is for informational purposes only and should not be considered as investment advice. Always consult with a qualified financial advisor before making any investment decisions. Past performance does not guarantee future results. Trading and investing involve risk of loss.
+
+## 📄 License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
 
 ---
 
