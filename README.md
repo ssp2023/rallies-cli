@@ -88,7 +88,7 @@ That's it! You're ready to start researching.
 | Command | Description |
 |---------|-------------|
 | `/help` | Show available commands and usage |
-| `/key API_KEY` | Set your Rallies.ai API key for enhanced features and more usage |
+| `/key API_KEY` | Set your rallies.ai API key for more usage |
 | `/feed` | Browse recent high-scoring community questions |
 | `/clear` | Clear conversation history |
 | `/compact` | Compress conversation while preserving context |
