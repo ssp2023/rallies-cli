@@ -20,6 +20,7 @@
 Rallies CLI is an intelligent investment research agent built by [Rallies](https://rallies.ai) that combines the conversational power of AI with real-time financial data. Think of it as ChatGPT specifically designed for traders and investors, equipped with live market data, news feeds, and comprehensive financial analysis capabilities.
 
 #### What's different from ChatGPT, Perplexity Finance, etc?
+
 Most existing LLMs, even with web search and other capabilities rely on out-dated stock market data. Moreover, since they are not backed by real-time data, running complex queries is hard, and often returns inaccurate results e.g try asking an LLM "can you summarize today's options flow data for AAPL", and you'll realize that a lot of the answers simply rely on web searches which are never real-time.
 
 On the contrary, rallies-cli relies on real-time data that is updated as frequently as possible. 
