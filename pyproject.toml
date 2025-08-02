@@ -21,7 +21,9 @@ dependencies = [
     "tiktoken",
     "requests",
     "openai",
-    "numpy"
+    "google-generativeai",
+    "numpy",
+    "prompt_toolkit"
 ]
 
 [project.scripts]

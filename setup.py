@@ -10,7 +10,9 @@ setup(
         "inquirer",
         "tiktoken",
         "openai",
+        "google-generativeai",
         "numpy",
+        "prompt_toolkit",
     ],
     entry_points={
         'console_scripts': [

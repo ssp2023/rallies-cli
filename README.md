@@ -41,10 +41,18 @@ pip install rallies
 
 ### Setup
 
-1. **Get your OpenAI API key** from [OpenAI Platform](https://platform.openai.com/)
-2. **Set environment variable**:
+1. **Get your API key** from [OpenAI Platform](https://platform.openai.com/) or [Google AI Studio](https://aistudio.google.com/).
+2. **Set environment variables**:
+
+   For OpenAI:
    ```bash
    export OPENAI_API_KEY="sk-your-api-key-here"
+   ```
+
+   For Gemini:
+   ```bash
+   export GEMINI_API_KEY="your-api-key-here"
+   export RALLIES="gemini"
    ```
 3. **Launch rallies from your terminal**:
    ```bash
@@ -97,9 +105,19 @@ That's it! You're ready to start researching.
 
 ## 🔑 API Keys & Authentication
 
-### OpenAI API Key (Required)
+### LLM API Key (Required)
+
+Rallies supports both OpenAI and Google Gemini. By default, it uses OpenAI.
+
+For OpenAI, set the `OPENAI_API_KEY` environment variable:
 ```bash
 export OPENAI_API_KEY="sk-your-openai-key"
+```
+
+To use Gemini, set the `GEMINI_API_KEY` and `RALLIES` environment variables:
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export RALLIES="gemini"
 ```
 
 ### Rallies.ai API Key (Optional - Higher usage limits)
@@ -121,6 +139,7 @@ The Rallies.ai API key provides you higher rate limits. You can get your key by 
 ### Dependencies
 
 - `openai` - GPT-4 integration
+- `google-generativeai` - Gemini integration
 - `rich` - Terminal formatting and colors  
 - `requests` - HTTP requests for data APIs
 - `inquirer` - Interactive prompts
@@ -131,9 +150,16 @@ The Rallies.ai API key provides you higher rate limits. You can get your key by 
 
 ### Common Issues
 
-**"OpenAI API Key not found"**
+**"API Key not found"**
+
+For OpenAI:
 ```bash
 export OPENAI_API_KEY="sk-your-key-here"
+```
+
+For Gemini:
+```bash
+export GEMINI_API_KEY="your-key-here"
 ```
 
 **"Rate limit exceeded"**

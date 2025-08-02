@@ -68,11 +68,17 @@ class Manager:
         if handle_command(prompt, conversation, self.agent, console):
             return ""
         
-        if not os.getenv("OPENAI_API_KEY"):
+        if os.getenv("RALLIES") == "gemini":
+            if not os.getenv("GEMINI_API_KEY"):
+                console.print("[red]⚠ We need to set our Gemini API key first. Please set GEMINI_API_KEY environment variable with your Gemini API key.[/red]")
+                console.print("[dim white]e.g export GEMINI_API_KEY=... - once done open rallies again[/dim white]")
+                console.print()
+                return ""
+        elif not os.getenv("OPENAI_API_KEY"):
             console.print("[red]⚠ We need to set our OpenAI key first. Please set OPENAI_API_KEY environment variable with your OpenAI key.[/red]")
             console.print("[dim white]e.g export OPENAI_API_KEY=sk-... - once done open rallies again[/dim white]")
             console.print()
-            exit()
+            return ""
 
         # Show initial planning spinner
         console.print()
@@ -181,3 +187,22 @@ class Manager:
         console.print(f"{usage_info}[dim white]Tokens used: [/dim white][white]{tokens:,}[/white] | [dim white]with [/dim white][magenta]♥[/magenta] [dim white]by [/dim white][link=https://rallies.ai][dim white]rallies.ai[/dim white][/link]", justify="right")
 
         return answer_text 
+
+
+    def start(self):
+        """Starts the CLI application."""
+        conversation = [{"role": "system", "content": self.system_prompt}]
+
+        while True:
+            try:
+                prompt = console.input(f"[bold bright_green]>[/bold bright_green] ")
+                if not prompt:
+                    continue
+                self.process_prompt(prompt, conversation)
+                console.print()
+            except KeyboardInterrupt:
+                console.print("\n[bold red]Exiting...[/bold red]")
+                break
+            except Exception as e:
+                console.print(f"[bold red]An unexpected error occurred: {e}[/bold red]")
+                break
